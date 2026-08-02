@@ -1,0 +1,19 @@
+name=[[ wy_no_recurring ]]
+
+ques=[[
+Why there is no recurring feature in MyMoney?
+]]
+
+tag=[[
+other, _faq
+]]
+
+body=[[
+"Recurring records" feature means that you can schedule a record, which will be added automatically on a fixed date of every month.
+<br><br>
+It might seem to be an interesting feature at first, but actually it not only makes it difficult to manage, but also allows you to loss the attention for potential expenses coming of the subscriptions or other periodic services.
+
+@ref{{ wy_minimal }}
+
+Most of the people would use this feature initially, but later face issues managing the records. That is the reason why this feature will <b>NOT</b> be added to MyMoney.
+]]

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dp" android:width="48.0dp" android:viewportWidth="192.0" android:viewportHeight="192.0"
+  xmlns:aapt="http://schemas.android.com/aapt" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffff" android:pathData="M163.38,96L163.38,77.05C163.38,67.75 155.84,60.2 146.54,60.2L145.84,60.2L140.92,40.55L127.2,43.98L118.46,26.51L51.08,60.2L39.85,60.2C30.55,60.2 23,67.75 23,77.05L23,148.64C23,157.94 30.55,165.49 39.85,165.49L146.54,165.49C155.84,165.49 163.38,157.94 163.38,148.64L163.38,129.69L163.71,129.69C166.63,129.69 169,127.32 169,124.4L169,101.29C169,98.37 166.63,96 163.71,96L163.38,96Z" android:strokeColor="#ffffff" android:strokeWidth="8.0" android:strokeLineCap="square" android:strokeLineJoin="miter" />
+    <path android:fillColor="#5f8d62" android:pathData="M138.12,65.82L118.46,26.51L39.85,65.82L138.12,65.82Z" />
+    <path android:fillColor="@drawable/$ic_aw_mymoney_logo__0" android:pathData="M147.24,65.82L140.92,40.55L39.85,65.82L147.24,65.82Z" />
+    <path android:fillColor="@drawable/$ic_aw_mymoney_logo__1" android:pathData="M39.85,60.2L146.54,60.2C155.84,60.2 163.38,67.75 163.38,77.05L163.38,148.64C163.38,157.94 155.84,165.49 146.54,165.49L39.85,165.49C30.55,165.49 23,157.94 23,148.64L23,77.05C23,67.75 30.55,60.2 39.85,60.2Z" android:strokeColor="#00000000" />
+    <path android:fillColor="@drawable/$ic_aw_mymoney_logo__2" android:pathData="M39.85,60.2L39.85,60.2L39.85,148.64L23,148.64L23,77.05C23,67.75 30.55,60.2 39.85,60.2Z" android:strokeColor="#00000000" />
+    <path android:fillColor="#026cb1" android:pathData="M23,148.64L163.38,148.64L163.38,148.97C163.38,158.09 155.98,165.49 146.87,165.49L39.52,165.49C30.4,165.49 23,158.09 23,148.97L23,148.64Z" android:strokeColor="#00000000" />
+    <path android:fillColor="@drawable/$ic_aw_mymoney_logo__3" android:pathData="M23,148.64Q39.85,106.53 106.61,106.53Q141.7,106.53 163.38,106.53L163.38,148.64L23,148.64Z" />
+    <path android:fillColor="@drawable/$ic_aw_mymoney_logo__4" android:pathData="M118.46,96L163.71,96C166.63,96 169,98.37 169,101.29L169,124.4C169,127.32 166.63,129.69 163.71,129.69L118.46,129.69C112.26,129.69 107.23,124.66 107.23,118.46L107.23,107.23C107.23,101.03 112.26,96 118.46,96Z" android:strokeColor="#00000000" />
+    <path android:fillColor="#026cb1" android:pathData="M124.08,112.85m-8.42,0a8.42,8.42 0,1 1,16.84 0a8.42,8.42 0,1 1,-16.84 0" />
+</vector>

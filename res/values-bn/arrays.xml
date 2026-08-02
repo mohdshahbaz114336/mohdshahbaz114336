@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_currency_position">
+        <item>পরিমাণের শুরুতে</item>
+        <item>পরিমাণের শেষে</item>
+        <item>মুদ্রা চিহ্ন পরিহার করে</item>
+    </string-array>
+    <string-array name="entries_decimal_place">
+        <item>০ (যেমন ১০)</item>
+        <item>১ (যেমন ১০.১)</item>
+        <item>২ (যেমন ১.০.৪৫)</item>
+    </string-array>
+</resources>

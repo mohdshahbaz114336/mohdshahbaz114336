@@ -1,0 +1,32 @@
+name=[[ h_restore ]]
+
+ques=[[
+How to track personal loans/debts in MyMoney?
+]]
+
+tag=[[
+howto, top
+]]
+
+body=[[
+The term "Personal debts" here refers to only the amount taken from or given to your friends. Hence, there is no interest to be considered.
+
+You can manage debts with these simple steps:
+<br><br>
+- There should be two dedicated categories for loans: one expense-category "Given to friends" and one income-category "Received from friend". If you do not have similar categories already, create them first.
+
+@img{{ h_debt1 }}
+
+- When you take money from your friend, add income-record with that amount. While adding record, you have to write in the notes section a tag for that friend, like #loan-david, or #paul, etc. which uniquely identifies that friend.
+
+@img{{ h_debt2 }}
+
+- When you give money to your friend, add expense-record with that amount. Again, you have to write tag for that friend, in the notes section.
+<br><br>
+- On the start page of MyMoney, tap on the <b>Search</b> icon and write tag for that specific friend. All transactions with that tag (friend) will show up. You can add up the amounts to calculate how much you or your friend have to pay.
+
+@img{{ h_debt3 }}
+
+<br><br>
+- Make sure not use the same tag for two different friends.
+]]

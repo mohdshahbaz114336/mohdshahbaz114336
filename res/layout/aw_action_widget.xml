@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_aw_action" android:background="@color/colorAwLightBg" android:padding="2.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/btn_aw_launch" android:background="@drawable/selector_borderless" android:layout_width="48.0dp" android:layout_height="48.0dp" android:src="@drawable/ic_aw_mymoney_logo" android:scaleType="fitCenter" android:contentDescription="@string/add_new_expense" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="12.0sp" android:textColor="@color/colorAwLightTextSecondary" android:ellipsize="end" android:gravity="start" android:id="@id/tv_aw_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/all_accounts" android:maxLines="1" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/colorAwLightText" android:ellipsize="end" android:gravity="start" android:id="@id/tv_aw_balance" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sign_dash" android:maxLines="1" />
+        </LinearLayout>
+        <ImageButton android:id="@id/btn_aw_add_expense" android:background="@drawable/selector_borderless" android:layout_width="48.0dp" android:layout_height="48.0dp" android:src="@drawable/ic_aw_add_expense" android:scaleType="fitCenter" android:contentDescription="@string/add_new_expense" />
+        <ImageButton android:id="@id/btn_aw_add_income" android:background="@drawable/selector_borderless" android:layout_width="48.0dp" android:layout_height="48.0dp" android:src="@drawable/ic_aw_add_income" android:scaleType="fitCenter" android:contentDescription="@string/add_new_income" />
+        <ImageButton android:id="@id/btn_aw_add_transfer" android:background="@drawable/selector_borderless" android:layout_width="48.0dp" android:layout_height="48.0dp" android:src="@drawable/ic_aw_add_transfer" android:scaleType="fitCenter" android:contentDescription="@string/add_new_transfer" />
+    </LinearLayout>
+</LinearLayout>

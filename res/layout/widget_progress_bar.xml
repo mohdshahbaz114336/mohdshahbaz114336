@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:id="@id/id_prog_bar_progress" android:background="@drawable/drawable_progress" android:layout_width="match_parent" android:layout_height="@dimen/progress_bar_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

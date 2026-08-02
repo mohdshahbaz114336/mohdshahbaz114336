@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/intro_fragment_margin" android:layout_marginEnd="@dimen/intro_fragment_margin">
+        <ImageView android:layout_width="240.0dp" android:layout_height="120.0dp" android:layout_margin="10.0dp" android:src="@drawable/bg_intro_notification" android:scaleType="fitCenter" android:contentDescription="@string/reminder_from_mymoney" app:tint="?colorOnSurfaceDisabled" />
+        <View android:background="?colorOnSurfaceDisabled" android:layout_width="match_parent" android:layout_height="?strokeSize" />
+        <TextView android:textStyle="bold" android:gravity="start" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/q_remind_everyday_to_record_expense" android:maxLines="10" style="?textLarge" />
+        <View android:background="?colorOnSurfaceTone" android:layout_width="match_parent" android:layout_height="?strokeSize" />
+        <com.google.android.material.switchmaterial.SwitchMaterial android:gravity="center_vertical" android:id="@id/switch_notification" android:paddingTop="20.0dp" android:paddingBottom="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/show_reminder_notification" android:maxLines="3" style="?textNormal" />
+        <TextView android:gravity="start" android:paddingTop="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/msg_intro_notification" android:maxLines="6" android:drawablePadding="10.0dp" app:drawableStartCompat="@drawable/ic_info" app:drawableTint="?colorOnSurfaceDisabled" style="?textNormalSubtitle" />
+        <LinearLayout android:orientation="vertical" android:id="@id/view_warn" android:background="@drawable/bg_card" android:paddingLeft="8.0dp" android:paddingRight="8.0dp" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+            <TextView android:gravity="start" android:paddingBottom="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/msg_intro_notification_warn" android:maxLines="6" style="?textSmall" />
+            <com.google.android.material.button.MaterialButton android:layout_gravity="end" android:id="@id/btn_settings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enable" style="?buttonStyleAccent" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,19 @@
+name=[[ w_del_account ]]
+
+ques=[[
+What happens when an account is deleted?
+]]
+
+tag=[[
+basic, top
+]]
+
+body=[[
+In MyMoney, when you delete an account, all the associated records are also deleted. Depending on the type of the record:
+<br><br>
+<b>Income/Expense:</b> All the associated income and expense records will be deleted.
+<br><br>
+<b>Transfer:</b> Transfer records will not be deleted. Rather they will be converted to a special type of expense or income record indicating that those amounts were sent to or received from a deleted account.
+
+@img{{ w_del_account }}
+]]

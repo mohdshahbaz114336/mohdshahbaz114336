@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="108.0dp" android:width="108.0dp" android:viewportWidth="108.0" android:viewportHeight="108.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:scaleX="0.25" android:scaleY="0.25">
+        <path android:fillColor="#5f8d62" android:pathData="M279,164L251,108L139,164L279,164Z" />
+        <path android:fillColor="@drawable/$ic_launcher_foreground__0" android:pathData="M292,164L283,128L139,164L292,164Z" />
+        <path android:fillColor="@drawable/$ic_launcher_foreground__1" android:pathData="M139,156L291,156C304.246,156 315,166.754 315,180L315,282C315,295.246 304.246,306 291,306L139,306C125.754,306 115,295.246 115,282L115,180C115,166.754 125.754,156 139,156Z" android:strokeColor="#00000000" />
+        <path android:fillColor="@drawable/$ic_launcher_foreground__2" android:pathData="M139,156L139,156L139,282L115,282L115,180C115,166.754 125.754,156 139,156Z" android:strokeColor="#00000000" />
+        <path android:fillColor="#026cb1" android:pathData="M115,282L315,282L315,282.466C315,295.455 304.455,306 291.466,306L138.534,306C125.545,306 115,295.455 115,282.466L115,282Z" android:strokeColor="#00000000" />
+        <path android:fillColor="@drawable/$ic_launcher_foreground__3" android:pathData="M115,282Q139,222 234.12,222Q284.114,222 315,222L315,282L115,282Z" />
+        <path android:fillColor="@drawable/$ic_launcher_foreground__4" android:pathData="M251,207L315.465,207C319.624,207 323,210.376 323,214.536L323,247.464C323,251.624 319.624,255 315.465,255L251,255C242.169,255 235,247.831 235,239L235,223C235,214.169 242.169,207 251,207Z" android:strokeColor="#00000000" />
+        <path android:fillColor="#026cb1" android:pathData="M259,231m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
+    </group>
+</vector>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:ellipsize="end" android:paddingBottom="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/whats_new_" android:maxLines="2" style="?textLarge" />
+    <TextView android:ellipsize="end" android:paddingTop="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/app_name_with_version" style="?textSmallSubtitle" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="0.0dp" android:fillViewport="false" android:layout_weight="1.0" android:overScrollMode="never">
+        <TextView android:textStyle="normal" android:ellipsize="none" android:gravity="start" android:id="@id/tv_changelog" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="400" android:paddingStart="10.0dp" android:paddingEnd="10.0dp" style="?textNormal" />
+    </ScrollView>
+    <com.google.android.material.button.MaterialButton android:layout_gravity="center_horizontal" android:id="@id/btn_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ok" style="?buttonStyle" />
+</LinearLayout>

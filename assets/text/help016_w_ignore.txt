@@ -1,0 +1,20 @@
+name=[[ w_ignore ]]
+
+ques=[[
+What happens after ignoring accounts/categories?
+]]
+
+tag=[[
+basic, top
+]]
+
+body=[[
+There are times when you have an account or category that you no longer use, but has previous records associated to it. You can simply ignore it. While adding a record, an ignored account or category does not show up in the list. Unless used, they are also eliminated from the analysis section. Even you can restore it later at any time.
+
+@img{{ w_ignore }}
+
+For example, you can ignore your expired credit card accounts in MyMoney. You can also keep your category list organized by ignoring unused categories.
+<br>
+<br>
+<b>IMPORTANT:</b> Account or category names that start with a dot '.' are ignored. Whether you ignore an account or not, it has no effect on the balance calculation. Balance is calculated considering all accounts.
+]]

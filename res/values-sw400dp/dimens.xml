@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="calculator_btn_c_icon_size">34.0dp</dimen>
+    <dimen name="calculator_btn_text_size">26.0sp</dimen>
+    <dimen name="checker_button_height">36.0dp</dimen>
+    <dimen name="edit_box_width">350.0dp</dimen>
+    <dimen name="flow_chart_height">210.0dp</dimen>
+    <dimen name="flow_chart_vertical_padding">15.0dp</dimen>
+    <dimen name="intro_fragment_margin">35.0dp</dimen>
+    <dimen name="message_box_width">300.0dp</dimen>
+    <dimen name="progress_bar_width">12.0dp</dimen>
+    <dimen name="quick_guide_preview_height">220.0dp</dimen>
+    <dimen name="quick_guide_width">360.0dp</dimen>
+    <dimen name="record_card_width">350.0dp</dimen>
+    <dimen name="recycler_view_default_padding">7.0dp</dimen>
+    <dimen name="restore_box_vertical_margin">100.0dp</dimen>
+    <dimen name="restore_box_width">350.0dp</dimen>
+</resources>

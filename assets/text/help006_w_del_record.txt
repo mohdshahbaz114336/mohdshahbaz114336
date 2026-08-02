@@ -1,0 +1,21 @@
+name=[[ w_del_record ]]
+
+ques=[[
+What happens when a record is deleted?
+]]
+
+tag=[[
+basic, top
+]]
+
+body=[[
+In MyMoney, when you delete a record it affects the balance of the associated account. The effect is the reverse of adding the record. For example:
+<br><br>
+- If it is an expense record the amount is added back to the account.
+<br><br>
+- If it is an income record the same amount is subtracted from the account.
+<br><br>
+- If it is a transfer record, the amount was transferred back to respective accounts.
+<br><br>
+Suppose, after creating a $50 expense-record from your "Wallet" account, balance is $450. Now, if you delete this record, "Wallet" balance will become $500, as it was before adding the record.
+]]

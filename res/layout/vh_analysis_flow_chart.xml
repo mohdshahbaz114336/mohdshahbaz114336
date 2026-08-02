@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="2.0dp" android:paddingEnd="2.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.raha.app.mymoney.widget.chart.FlowChartLayout android:id="@id/flow_chart" android:layout_width="match_parent" android:layout_height="@dimen/flow_chart_height" android:layout_marginTop="@dimen/flow_chart_vertical_padding" android:layout_marginBottom="@dimen/flow_chart_vertical_padding" />
+</LinearLayout>

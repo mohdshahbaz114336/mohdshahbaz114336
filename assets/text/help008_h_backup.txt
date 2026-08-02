@@ -1,0 +1,31 @@
+name=[[ h_backup ]]
+
+ques=[[
+How to create backup files in MyMoney?
+]]
+
+tag=[[
+howto, top
+]]
+
+body=[[
+A backup file stores all your records, categories, accounts & budgets (available at the time of backup) in a special format. The file name has the extension <b>.mbak</b>. Using the restore feature in MyMoney, you can later restore from this file the stored data in case device or data loss.
+<br><br>
+To create a backup file at an instant:
+<br><br>
+- Go to <b>Backup & Restore</b> from the side menu and read the instructions.
+
+@img{{ h_backup1 }}
+
+- Tap on <b>BACKUP NOW</b>. Unless it is the first time, the backup process should start immediately.
+
+@img{{ h_backup2 }}
+
+- You might be asked to choose the folder/directory on storage where MyMoney will create the backup file. You have to give MyMoney permission to that folder/directory for the backup & restore features to work. This step only applies for the first time or in case of directory change.
+<br><br>
+- After selection, tap on <b>BACKUP NOW</b>.
+
+@img{{ h_backup3 }}
+
+- A success message should appear once the backup process finishes.
+]]

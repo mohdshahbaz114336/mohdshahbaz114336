@@ -1,0 +1,19 @@
+name=[[ w_budgets ]]
+
+ques=[[
+What do budgets mean in MyMoney?
+]]
+
+tag=[[
+basic, top
+]]
+
+body=[[
+In MyMoney, a budget means simply applying a limit on one of your existing category. One budget is associated with one category.
+<br><br>
+Creating or deleting a budget has no effect on any account balance. Consider it an indicator to help you limit your expenses to some extent.
+
+@img{{ w_budgets }}
+
+Currently, you can only set monthly budgets on your expense categories. You can copy budgets from previous months if you want. Applied budgets are saved for you so that you can revisit to a previous month to compare the limits for reference.
+]]

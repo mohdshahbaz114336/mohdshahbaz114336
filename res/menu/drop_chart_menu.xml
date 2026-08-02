@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_item_expense_overview" android:title="@string/expense_overview" />
+    <item android:id="@id/menu_item_income_overview" android:title="@string/income_overview" />
+    <item android:id="@id/menu_item_expense_flow" android:title="@string/expense_flow" />
+    <item android:id="@id/menu_item_income_flow" android:title="@string/income_flow" />
+    <item android:id="@id/menu_item_account_analysis" android:title="@string/account_analysis" />
+</menu>

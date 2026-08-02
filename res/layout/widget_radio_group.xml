@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.button.MaterialButton android:id="@id/btn_1" android:layout_width="wrap_content" android:layout_height="@dimen/checker_button_height" android:text="@string/income" app:iconSize="20.0dp" style="?buttonStyleRadioGroup" />
+    <View android:background="?colorOnSurfaceDisabled" android:layout_width="@dimen/divider_width" android:layout_height="match_parent" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp" />
+    <com.google.android.material.button.MaterialButton android:id="@id/btn_2" android:layout_width="wrap_content" android:layout_height="@dimen/checker_button_height" android:text="@string/expense" app:iconSize="20.0dp" style="?buttonStyleRadioGroup" />
+    <View android:background="?colorOnSurfaceDisabled" android:layout_width="@dimen/divider_width" android:layout_height="match_parent" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp" />
+    <com.google.android.material.button.MaterialButton android:id="@id/btn_3" android:layout_width="wrap_content" android:layout_height="@dimen/checker_button_height" android:text="@string/transfer" app:iconSize="20.0dp" style="?buttonStyleRadioGroup" />
+</LinearLayout>

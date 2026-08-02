@@ -1,0 +1,22 @@
+name=[[ i_sync ]]
+
+ques=[[
+Is online backup available in the pro version?
+]]
+
+tag=[[
+other, _faq
+]]
+
+body=[[
+Online backup/restore feature is not available in MyMoney/MyMoney Pro. However, you can manually upload the backup files to your preferred cloud storages on a regular basis.
+
+@ref{{ i_multidevice }}
+
+@ref{{ h_newphone }}
+
+@ref{{ wy_no_sync }}
+
+@ref{{ wy_minimal }}
+
+]]

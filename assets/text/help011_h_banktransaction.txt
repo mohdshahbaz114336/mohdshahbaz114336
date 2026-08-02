@@ -1,0 +1,21 @@
+name=[[ h_banktransaction ]]
+
+ques=[[
+How to track bank transactions with MyMoney?
+]]
+
+tag=[[
+howto, top
+]]
+
+body=[[
+Almost always, the banks charge some extra amount for every transaction or service. To properly manage these records, it is recommended to keep a separate expense-category for "Bank charges".
+<br><br>
+For example, you withdrawn $250 from local ATM, and put the cash into your wallet. The bank charged you $2, but that can be considered as an expense.
+<br><br>
+So you should add two separate records in MyMoney: one transfer record, and one expense record.
+
+@img{{ h_banktransaction }}
+
+Same is the case when the bank gives you interest, in which case you should keep a separate income-category "Bank interests".
+]]

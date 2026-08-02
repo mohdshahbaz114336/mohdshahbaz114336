@@ -1,0 +1,96 @@
+.class public final Ll/s;
+.super Ll/r;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/ActionProvider$VisibilityListener;
+
+
+# instance fields
+.field public c:Lg5/c;
+
+
+# virtual methods
+.method public final a()Z
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Ll/r;->a:Landroid/view/ActionProvider;
+
+    invoke-virtual {v0}, Landroid/view/ActionProvider;->isVisible()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final b(Landroid/view/MenuItem;)Landroid/view/View;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Ll/r;->a:Landroid/view/ActionProvider;
+
+    invoke-virtual {v0, p1}, Landroid/view/ActionProvider;->onCreateActionView(Landroid/view/MenuItem;)Landroid/view/View;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final c()Z
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Ll/r;->a:Landroid/view/ActionProvider;
+
+    invoke-virtual {v0}, Landroid/view/ActionProvider;->overridesItemVisibility()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final d(Lg5/c;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Ll/s;->c:Lg5/c;
+
+    iget-object p1, p0, Ll/r;->a:Landroid/view/ActionProvider;
+
+    invoke-virtual {p1, p0}, Landroid/view/ActionProvider;->setVisibilityListener(Landroid/view/ActionProvider$VisibilityListener;)V
+
+    return-void
+.end method
+
+.method public final onActionProviderVisibilityChanged(Z)V
+    .locals 1
+
+    .line 1
+    iget-object p1, p0, Ll/s;->c:Lg5/c;
+
+    .line 3
+    if-eqz p1, :cond_0
+
+    .line 5
+    iget-object p1, p1, Lg5/c;->c:Ljava/lang/Object;
+
+    .line 7
+    check-cast p1, Ll/q;
+
+    .line 9
+    iget-object p1, p1, Ll/q;->n:Ll/o;
+
+    .line 11
+    const/4 v0, 0x1
+
+    .line 12
+    iput-boolean v0, p1, Ll/o;->h:Z
+
+    .line 14
+    invoke-virtual {p1, v0}, Ll/o;->p(Z)V
+
+    .line 17
+    :cond_0
+    return-void
+.end method

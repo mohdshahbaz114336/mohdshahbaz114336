@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:id="@id/tv_title" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:text="@string/select_an_account" android:maxLines="2" style="?textLarge" />
+    <View android:id="@id/divider" android:background="?colorOnSurfaceTone" android:layout_width="match_parent" android:layout_height="@dimen/sub_divider_width" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:paddingStart="@dimen/recycler_view_default_padding" android:paddingEnd="@dimen/recycler_view_default_padding" />
+</LinearLayout>

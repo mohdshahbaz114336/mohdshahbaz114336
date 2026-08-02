@@ -1,0 +1,25 @@
+name=[[ i_multidevice ]]
+
+ques=[[
+Can I use MyMoney in multiple devices?
+]]
+
+tag=[[
+other, _faq
+]]
+
+body=[[
+MyMoney is an offline app. MyMoney data (ie. added records, categories, etc.) remains on the specific device you use and there is no sign-in option available.
+<br>
+<br>
+Hence, cross-device data synchronization is not possible. You should install and use MyMoney on your primary device only.
+
+@ref{{ i_sync }}
+
+@ref{{ h_newphone }}
+
+@ref{{ wy_no_sync }}
+
+@ref{{ wy_minimal }}
+
+]]

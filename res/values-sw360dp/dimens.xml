@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="calculator_btn_c_icon_size">32.0dp</dimen>
+    <dimen name="calculator_btn_text_size">24.0sp</dimen>
+    <dimen name="checker_button_height">34.0dp</dimen>
+    <dimen name="copy_budget_box_vertical_margin">60.0dp</dimen>
+    <dimen name="copy_budget_box_width">320.0dp</dimen>
+    <dimen name="edit_box_width">320.0dp</dimen>
+    <dimen name="flow_chart_height">200.0dp</dimen>
+    <dimen name="flow_chart_vertical_padding">14.0dp</dimen>
+    <dimen name="intro_fragment_margin">25.0dp</dimen>
+    <dimen name="quick_guide_preview_height">200.0dp</dimen>
+    <dimen name="quick_guide_width">330.0dp</dimen>
+    <dimen name="record_card_width">320.0dp</dimen>
+    <dimen name="recycler_view_default_padding">6.0dp</dimen>
+    <dimen name="restore_box_vertical_margin">60.0dp</dimen>
+    <dimen name="restore_box_width">320.0dp</dimen>
+    <dimen name="transaction_item_left_padding">62.0dp</dimen>
+    <dimen name="wgt_config_preview_width">310.0dp</dimen>
+</resources>

@@ -1,0 +1,27 @@
+name=[[ wy_minimal ]]
+
+ques=[[
+Why does MyMoney lack some features?
+]]
+
+tag=[[
+other, _faq
+]]
+
+body=[[
+MyMoney features a simple and minimal design. It provides only the essential features needed to keep track of your daily personal expenses, and using these features is very simple. You can get used to all of these in a short time.
+
+@img{{ wy_minimal }}
+
+Some features that MyMoney does <b>NOT</b> offer and will <b>NEVER</b> be added:
+<br><br>
+- Recurring Transaction
+<br>
+- Checklist for record (Paid/unpaid)
+<br>
+- Subcategories
+<br>
+- Cloud backup or sync
+<br><br>
+However, it does provide some features that can significantly help you track your regular expenses smoothly. Recording expenses using MyMoney allows you to see your actual expenses and savings regularly, which in the long run, helps you improve your savings goal.
+]]

@@ -1,0 +1,29 @@
+name=[[ w_records ]]
+
+ques=[[
+What is a record in MyMoney?
+]]
+
+tag=[[
+basic, top
+]]
+
+body=[[
+In MyMoney, a record is an individual entry for an expense or income activity.
+
+@img{{ w_records }}
+
+Records are of 3 types:
+<br><br>
+- An income record associates an income-category with the account into which the money is settled. Say, getting your salary (category) into your bank account (account).
+<br><br>
+- An expense record takes an expense-category along with the account from which the amount was spent. For example, you bought a coffee (category) and paid with cash from your wallet (account).
+<br><br>
+- Transfer records represent account-to-account balance transfers, which will not affect your total balance. For example, you transferred $200 from your "Card" to your "Wallet" or just withdrew $100 from ATM and put it into your wallet.
+<br><br>
+A record has other helpful attributes like time, date and additional notes.
+<br><br>
+<b>IMPORTANT:</b> Note that when you delete a record, balance changes made by that record will be reversed as if the record was never added.
+
+@ref{{ w_del_record }}
+]]

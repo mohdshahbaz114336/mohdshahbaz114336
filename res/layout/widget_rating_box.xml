@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:padding="5.0dp" android:layout_width="@dimen/message_box_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:id="@id/id_tv_title" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:text="@string/q_like_my_money" android:maxLines="2" style="?textLarge" />
+    <TextView android:ellipsize="none" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/id_tv_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/msg_special_rating_request" android:maxLines="40" android:paddingStart="15.0dp" android:paddingEnd="15.0dp" style="?textNormal" />
+    <LinearLayout android:layout_gravity="end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="15.0dp" android:paddingEnd="15.0dp">
+        <com.google.android.material.button.MaterialButton android:layout_gravity="end" android:id="@id/id_btn_positive" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rate_it_now" android:layout_marginStart="5.0dp" android:layout_marginEnd="5.0dp" style="?buttonStyleAccent" />
+        <com.google.android.material.button.MaterialButton android:layout_gravity="end" android:id="@id/id_btn_neutral" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/i_ll_rate_later" android:layout_marginStart="5.0dp" android:layout_marginEnd="5.0dp" style="?buttonStyleAccent" />
+        <com.google.android.material.button.MaterialButton android:layout_gravity="end" android:id="@id/id_btn_negative" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/never_ask_me" android:layout_marginStart="5.0dp" android:layout_marginEnd="5.0dp" style="?buttonStyleAccent" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%dটি নতুন বিজ্ঞপ্তি</item>
+        <item quantity="other">%dটি নতুন বিজ্ঞপ্তি</item>
+    </plurals>
+    <plurals name="time_period_has_n_records">
+        <item quantity="one">%1$s : %2$d টি লেনদেন</item>
+        <item quantity="other">%1$s : %2$d টি লেনদেন</item>
+    </plurals>
+    <plurals name="total_n_matches_found">
+        <item quantity="one">মাত্র %1$d টি মিল পাওয়া গেছে</item>
+        <item quantity="other">মোট %1$d টি মিল পাওয়া গেছে</item>
+    </plurals>
+    <plurals name="total_n_records_in_this_account">
+        <item quantity="one">এই হিসাবে শুধু %1$d টি লেনদেন রয়েছে।</item>
+        <item quantity="other">এই হিসাবে মোট %1$d টি লেনদেন রয়েছে।</item>
+    </plurals>
+    <plurals name="total_n_records_in_this_category">
+        <item quantity="one">এই খাতে শুধু %1$d টি লেনদেন রয়েছে।</item>
+        <item quantity="other">এই খাতে মোট %1$d টি লেনদেন রয়েছে।</item>
+    </plurals>
+</resources>

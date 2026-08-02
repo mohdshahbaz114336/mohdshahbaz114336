@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?colorOnSurfaceTone" android:gravity="start" android:id="@id/id_tv_cal_cel_date" android:paddingTop="0.0dp" android:paddingBottom="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="?textExtraSmall" />
+    <TextView android:textSize="11.0sp" android:id="@id/id_tv_cal_cel_value" android:paddingTop="4.0dp" android:paddingBottom="2.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="0.0dp" android:paddingEnd="0.0dp" style="?textExtraSmall" />
+</LinearLayout>

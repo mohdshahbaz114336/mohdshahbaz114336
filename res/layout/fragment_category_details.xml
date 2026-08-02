@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:background="?colorSurface" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:elevation="?actionBarElevation">
+        <ImageButton android:id="@id/btn_close" android:background="@drawable/selector_round" android:layout_width="?actionBarSize" android:layout_height="?actionBarSize" android:src="@drawable/ic_close" android:contentDescription="@string/close" app:tint="?colorOnSurface" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:paddingBottom="0.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/category_details" style="?textNormal" />
+            <TextView android:id="@id/tv_title" android:paddingTop="0.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:freezesText="true" style="?textSmallSubtitle" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" android:paddingStart="@dimen/recycler_view_default_padding" android:paddingEnd="@dimen/recycler_view_default_padding" />
+        <com.raha.app.mymoney.widget.LoadingAnim android:id="@id/loading_anim" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </RelativeLayout>
+</LinearLayout>

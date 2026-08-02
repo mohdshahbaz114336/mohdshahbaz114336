@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference app:enabled="true" app:iconSpaceReserved="false" app:key="key_delete_all_records" app:summary="@string/summary_delete_all_records" app:title="@string/delete_all_records" />
+    <androidx.preference.Preference app:enabled="true" app:iconSpaceReserved="false" app:key="key_delete_all" app:summary="@string/summary_delete_all" app:title="@string/delete_all" />
+    <androidx.preference.Preference app:enabled="true" app:iconSpaceReserved="false" app:key="key_reset_all" app:summary="@string/summary_reset_all" app:title="@string/reset_all" />
+    <androidx.preference.PreferenceCategory app:enabled="true" app:iconSpaceReserved="false" app:isPreferenceVisible="true" app:title="@string/pro_migration">
+        <androidx.preference.Preference app:enabled="true" app:iconSpaceReserved="false" app:isPreferenceVisible="true" app:key="key_migration" app:summary="@string/summary_migration" app:title="@string/import_data_from_free_version" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

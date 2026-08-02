@@ -1,0 +1,13 @@
+name=[[ i_ios ]]
+
+ques=[[
+Is this app available for iPhone/iOS?
+]]
+
+tag=[[
+other
+]]
+
+body=[[
+If you use an iPhone/iOS device, sorry to let you down. MyMoney/MyMoney Pro is only available for the Android platform. As of right now, there is no plan to make an iOS version of this app.
+]]

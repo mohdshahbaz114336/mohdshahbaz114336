@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="start" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="24.0dp" android:layout_height="15.0dp" android:layout_marginTop="16.0dp" android:src="@drawable/ic_pro_flag" android:scaleType="fitCenter" android:contentDescription="@string/pro_version" app:tint="?brandTagColor" />
+</LinearLayout>

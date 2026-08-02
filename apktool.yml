@@ -1,0 +1,19 @@
+version: 3.0.3-dirty
+apkFileName: MyMoney Pro.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 21
+  targetSdkVersion: 33
+versionInfo:
+  versionCode: 44
+  versionName: 5.3-pro
+resourcesInfo:
+  packageId: 127
+doNotCompress:
+- arsc
+- png
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- res/raw/firebase_common_keep.xml

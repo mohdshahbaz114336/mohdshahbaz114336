@@ -1,0 +1,21 @@
+name=[[ w_categories ]]
+
+ques=[[
+What does a category mean in MyMoney?
+]]
+
+tag=[[
+basic, top
+]]
+
+body=[[
+A category is a label that can be applied to any type of expense or income. It specifies that particular expense or income activity. There are two types of categories: income and expense.
+
+@img{{ w_categories }}
+
+MyMoney allows you to create as many categories as you like (both free and pro versions). You can select your preferred icon and name for each category.
+<br><br>
+<b>IMPORTANT:</b> Deleting a category will also delete all the records associated with this category.
+
+@ref{{ w_del_record }}
+]]

@@ -1,0 +1,37 @@
+name=[[ h_restore ]]
+
+ques=[[
+How to restore data from backup files?
+]]
+
+tag=[[
+howto, top
+]]
+
+body=[[
+A backup file stores all your records, categories, accounts & budgets (available at the time of backup) in a special format. The file name has the extension <b>.mbak</b>. You can restore data from the backup files in case of device failure or data loss.
+<br><br>
+If you previously created backup file, and you want to restore data from it, put the file into a folder/directory on storage. Then follow the steps below:
+<br><br>
+- Go to <b>Backup & Restore</b> from the side menu and read the instructions.
+
+@img{{ h_backup1 }}
+
+- Tap on <b>SELECT/CHANGE DIRECTORY</b>. Follow the instructions to select the folder/directory where you put your backup file in the first step.
+
+@img{{ h_restore1 }}
+
+- Once the backup directory is selected, tap on <b>RESTORE</b>. A popup should appear with a list of backup files found in your selected directory.
+
+@img{{ h_restore2 }}
+
+@img{{ h_restore3 }}
+
+- Select the backup you want to restore from. Then select <b>RESTORE NOW</b> and the restore process should begin.
+<br><br>
+- A success message should appear once the restore process finishes.
+
+@img{{ h_restore4 }}
+
+<b>IMPORTANT:</b> Note that exported .csv files cannot be used as backup files. Keep your recent backup files in any safe storage like cloud storage, etc. Think twice before restoring data, and this process cannot be undone.
+]]

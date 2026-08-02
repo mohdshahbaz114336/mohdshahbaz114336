@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="com.raha.app.mymoney.pro" platformBuildVersionCode="34" platformBuildVersionName="14">
+    <queries>
+        <package android:name="com.raha.app.mymoney.free"/>
+    </queries>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <permission android:name="com.raha.app.mymoney.pro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.raha.app.mymoney.pro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:dataExtractionRules="@xml/data_extraction_rules" android:extractNativeLibs="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.raha.app.mymoney.application.App" android:resizeableActivity="false" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:exported="true" android:label="@string/app_name" android:name="com.raha.app.mymoney.ui.activity.SplashActivity" android:screenOrientation="portrait" android:theme="@style/SplashTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="com.raha.app.mymoney.SPLASH"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:label="@string/pro_migration" android:name="com.raha.app.mymoney.ui.activity.MigrationActivity" android:screenOrientation="portrait" android:theme="@style/MainTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.raha.app.mymoney.MIGRATION_CLIENT"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="firebase_crashlytics_collection_enabled" android:value="false"/>
+        <activity android:exported="false" android:label="@string/app_name" android:name="com.raha.app.mymoney.ui.activity.MainActivity" android:screenOrientation="portrait" android:theme="@style/MainTheme">
+            <intent-filter>
+                <action android:name="com.raha.app.mymoney.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:label="@string/app_name" android:name="com.raha.app.mymoney.ui.activity.PassActivity" android:screenOrientation="portrait" android:theme="@style/MainTheme">
+            <intent-filter>
+                <action android:name="com.raha.app.mymoney.PASS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:label="@string/passcode_protection" android:name="com.raha.app.mymoney.ui.activity.PassPreferenceActivity" android:screenOrientation="portrait" android:theme="@style/PreferenceTheme">
+            <intent-filter>
+                <action android:name="com.raha.app.mymoney.PASS_PREFERENCE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:label="@string/backup_restore" android:name="com.raha.app.mymoney.ui.activity.BackupRestoreActivity" android:screenOrientation="portrait" android:theme="@style/MainTheme">
+            <intent-filter>
+                <action android:name="com.raha.app.mymoney.BACKUP_RESTORE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:label="@string/preferences" android:name="com.raha.app.mymoney.ui.activity.PreferenceActivity" android:screenOrientation="portrait" android:theme="@style/PreferenceTheme">
+            <intent-filter>
+                <action android:name="com.raha.app.mymoney.PREFERENCES"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:label="@string/delete_reset" android:name="com.raha.app.mymoney.ui.activity.ResetActivity" android:screenOrientation="portrait" android:theme="@style/PreferenceTheme">
+            <intent-filter>
+                <action android:name="com.raha.app.mymoney.RESET"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:label="@string/input" android:name="com.raha.app.mymoney.ui.activity.InputActivity" android:screenOrientation="portrait" android:theme="@style/MainTheme">
+            <intent-filter>
+                <action android:name="com.raha.app.mymoney.INPUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:label="@string/export_records" android:name="com.raha.app.mymoney.ui.activity.ExportActivity" android:screenOrientation="portrait" android:theme="@style/MainTheme">
+            <intent-filter>
+                <action android:name="com.raha.app.mymoney.EXPORT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.raha.app.mymoney.ui.activity.IntroActivity" android:screenOrientation="portrait" android:theme="@style/MainTheme">
+            <intent-filter>
+                <action android:name="com.raha.app.mymoney.INTRO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:label="@string/search" android:name="com.raha.app.mymoney.ui.activity.SearchActivity" android:screenOrientation="portrait" android:theme="@style/MainTheme" android:windowSoftInputMode="stateVisible">
+            <intent-filter>
+                <action android:name="com.raha.app.mymoney.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:label="@string/widget_preferences" android:name="com.raha.app.mymoney.ui.activity.ActionWidgetConfigActivity" android:screenOrientation="portrait" android:theme="@style/PreferenceTheme">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:label="@string/mymoney_help" android:name="com.raha.app.mymoney.ui.activity.HelpActivity">
+            <intent-filter>
+                <action android:name="com.raha.app.mymoney.HELP"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:enabled="true" android:exported="false" android:name="com.raha.app.mymoney.service.WidgetUpdateService"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.raha.app.mymoney.application.AlarmReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:label="@string/new_record" android:name="com.raha.app.mymoney.application.ActionWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/action_widget_info"/>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="com.google.firebase.sessions.SessionLifecycleService"/>
+        <provider android:authorities="com.raha.app.mymoney.pro.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <provider android:authorities="com.raha.app.mymoney.pro.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
+    </application>
+</manifest>

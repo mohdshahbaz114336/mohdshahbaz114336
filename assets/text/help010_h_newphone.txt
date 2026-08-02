@@ -1,0 +1,24 @@
+name=[[ h_newphone ]]
+
+ques=[[
+How to move MyMoney data from old device to new device?
+]]
+
+tag=[[
+howto, top, _faq
+]]
+
+body=[[
+Make sure you have the latest version of MyMoney installed on both devices.
+<br><br>
+You need to create a backup file on the old device.
+<br><br>
+Once you created the backup file, locate the file using any of the available file manager app of your choice. Then send the file to your new device using any media (bluetooth, share apps, etc.).
+<br><br>
+Once this file is on your new device's storage, follow the restore procedure on your new device.
+
+@ref{{ h_backup }}
+@ref{{ h_restore }}
+
+<b>IMPORTANT:</b> In case your old device is damaged or lost, there is NO way to restore data, unless you have a recent backup file saved elsewhere.
+]]

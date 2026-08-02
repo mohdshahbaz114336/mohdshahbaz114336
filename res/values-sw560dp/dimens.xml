@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="checker_button_height">40.0dp</dimen>
+    <dimen name="divider_width">2.0dp</dimen>
+    <dimen name="edit_box_width">500.0dp</dimen>
+    <dimen name="flow_chart_height">235.0dp</dimen>
+    <dimen name="flow_chart_vertical_padding">20.0dp</dimen>
+    <dimen name="intro_fragment_margin">40.0dp</dimen>
+    <dimen name="message_box_width">360.0dp</dimen>
+    <dimen name="progress_bar_width">14.0dp</dimen>
+    <dimen name="quick_guide_preview_height">300.0dp</dimen>
+    <dimen name="quick_guide_width">500.0dp</dimen>
+    <dimen name="record_card_width">500.0dp</dimen>
+    <dimen name="recycler_view_default_padding">8.0dp</dimen>
+    <dimen name="restore_box_vertical_margin">140.0dp</dimen>
+    <dimen name="restore_box_width">500.0dp</dimen>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/selector_borderless" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="5.0dp" android:paddingEnd="5.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:gravity="start|center" android:id="@id/text" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="100" android:paddingStart="5.0dp" android:paddingEnd="5.0dp" style="?textNormal" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/image_frame" android:background="@drawable/bg_card_dashed" android:padding="9.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:layout_marginBottom="6.0dp">
+        <ImageView android:id="@id/image" android:background="@drawable/bg_card_striped" android:padding="1.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" android:maxHeight="180.0dp" android:contentDescription="@string/photo" />
+    </LinearLayout>
+    <TextView android:textStyle="bold|italic" android:textColor="?colorAccent" android:gravity="start|center" android:id="@id/reference" android:background="@drawable/selector_card" android:paddingTop="16.0dp" android:paddingBottom="16.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp" android:maxLines="2" android:drawablePadding="8.0dp" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" app:drawableStartCompat="@drawable/ic_go_to_link" app:drawableTint="?colorAccent" style="?textSmall" />
+</LinearLayout>

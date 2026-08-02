@@ -1,0 +1,21 @@
+name=[[ i_excelrestore ]]
+
+ques=[[
+Can I restore data from excel/csv file?
+]]
+
+tag=[[
+other, _faq
+]]
+
+body=[[
+No, you <b>CANNOT</b> restore data into MyMoney app using an excel(.xlsx) or csv(.csv) file (even if created using the Export functionality).
+<br>
+<br>
+MyMoney data can only be restored using the native backup files(.mbak) created using the <b>Backup & Restore</b> functionality of the app.
+
+@ref{{ h_backup }}
+
+@ref{{ h_restore }}
+
+]]

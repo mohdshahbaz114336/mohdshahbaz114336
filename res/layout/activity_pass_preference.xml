@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:background="?actionBarColor" android:layout_width="match_parent" android:layout_height="wrap_content" android:stateListAnimator="@animator/app_bar_elevation_animator">
+        <com.google.android.material.appbar.MaterialToolbar android:theme="?actionBarTheme" android:id="@id/toolbar_pass_preference" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:popupTheme="?popupTheme" app:title="@string/passcode_protection" app:titleTextAppearance="?titleTextAppearance" app:titleTextColor="?titleTextColor" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <fragment android:name="com.raha.app.mymoney.ui.fragment.PassPreferenceFragment" android:id="@id/fragment_holder_pass_preference" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+    <TextView android:gravity="start" android:id="@id/tv_pass_preference_info_widget" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/summary_pass_preference_info_widget" android:maxLines="10" android:drawablePadding="10.0dp" app:drawableStartCompat="@drawable/ic_info" app:drawableTint="?colorOnSurfaceDisabled" style="?textNormalSubtitle" />
+</LinearLayout>

@@ -1,0 +1,29 @@
+name=[[ w_accounts ]]
+
+ques=[[
+What does an account represent in MyMoney?
+]]
+
+tag=[[
+basic, top
+]]
+
+body=[[
+In MyMoney, an account represents a source or container that can logically store money. It can be a credit card or a wallet. In some cases, the balance can become negative logically.
+<br><br>
+Every account has an icon and a name.
+<br><br>
+Suppose, if you have $500 in your wallet, then you can create a MyMoney account with a $500 initial balance and name it "Wallet".
+<br><br>
+The initial field is only there to match your actual wallet balance during account creation.
+
+@img{{ w_accounts }}
+
+There is no limit on the number of accounts you can create. For each account, you can choose an icon and a name.
+<br><br>
+<b>IMPORTANT:</b> When you delete an account, all the records with this account will be deleted as well. However, transfer records associating other accounts will not be deleted.
+
+@ref{{ w_del_account }}
+
+@ref{{ w_del_record }}
+]]

@@ -1,0 +1,21 @@
+name=[[ h_carryover ]]
+
+ques=[[
+How to configure "Balance carry over" feature in MyMoney?
+]]
+
+tag=[[
+howto, top
+]]
+
+body=[[
+In MyMoney, the carry over feature does not affect the account balance. It simply calculates the total ending balance of the selected month/week/day as of now.
+<br><br>
+To enable/disable this feature, go to <b>Display options</b> and tap ON/OFF near "Carry over" feature.
+
+@img{{ h_carryover1 }}
+
+@img{{ h_carryover2 }}
+
+When the carry-over feature is OFF, the top section shows the total balance as (Income minus expense) of the selected month/week/day.
+]]

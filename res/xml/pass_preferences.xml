@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreferenceCompat app:defaultValue="false" app:enabled="true" app:iconSpaceReserved="false" app:isPreferenceVisible="true" app:key="key_pin_lock" app:title="@string/passcode_lock" />
+    <androidx.preference.Preference app:dependency="key_pin_lock" app:enabled="true" app:iconSpaceReserved="false" app:isPreferenceVisible="true" app:key="key_change_pin" app:title="@string/change_passcode" />
+</androidx.preference.PreferenceScreen>

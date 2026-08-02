@@ -1,0 +1,15 @@
+name=[[ wy_no_sync ]]
+
+ques=[[
+Why MyMoney has no cloud sync feature?
+]]
+
+tag=[[
+other
+]]
+
+body=[[
+MyMoney, as an offline-focused app, only offers the local storage backup and restore features. It does not offer cloud backup or similar online features. Cloud sync feature requires that you keep all your synced devices connected to the internet all the time, to maintain consistent data.
+<br><br>
+However, to better protect your local backup files, you can manually upload the backup files to your preferred cloud storages on a regular basis. So that in case of data loss, you can download the backup files from the cloud server to restore your recent data.
+]]

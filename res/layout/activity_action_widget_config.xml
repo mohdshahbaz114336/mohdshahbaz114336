@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:background="?colorSurface" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:elevation="?actionBarElevation">
+        <ImageButton android:id="@id/btn_cancel" android:background="@drawable/selector_round" android:layout_width="?actionBarSize" android:layout_height="?actionBarSize" android:src="@drawable/ic_close" android:contentDescription="@string/cancel" app:tint="?titleTextColor" />
+        <TextView android:textAppearance="?titleTextAppearance" android:textColor="?titleTextColor" android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/widget_preferences" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/btn_ok" android:background="@drawable/selector_round" android:layout_width="?actionBarSize" android:layout_height="?actionBarSize" android:src="@drawable/ic_ok" android:contentDescription="@string/ok" app:tint="?titleTextColor" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/bg_aw_config_preview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10.0dp">
+        <TextView android:textAppearance="?textSmall" android:textColor="#ffffff" android:gravity="start" android:layout_gravity="start" android:paddingTop="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/preview_" android:paddingStart="20.0dp" android:paddingEnd="20.0dp" />
+        <include android:layout_width="@dimen/wgt_config_preview_width" android:layout_height="120.0dp" layout="@layout/aw_action_widget" />
+    </LinearLayout>
+    <fragment android:name="com.raha.app.mymoney.ui.fragment.ActionWidgetConfigFragment" android:id="@id/fragment_holder_widget_config" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

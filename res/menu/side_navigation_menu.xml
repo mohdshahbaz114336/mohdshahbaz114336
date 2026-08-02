@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_preference_small" android:id="@id/menu_item_nav_preferences" android:title="@string/preferences" />
+    <item android:title="@string/management">
+        <menu>
+            <group android:visible="true">
+                <item android:icon="@drawable/ic_export_small" android:id="@id/menu_item_nav_export_records" android:title="@string/export_records" />
+                <item android:icon="@drawable/ic_backup_small" android:id="@id/menu_item_nav_backup" android:title="@string/backup_restore" />
+                <item android:icon="@drawable/ic_delete_small" android:id="@id/menu_item_nav_reset" android:title="@string/delete_reset" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/application">
+        <menu>
+            <group android:visible="true">
+                <item android:icon="@drawable/ic_remove_ads_small" android:id="@id/menu_item_nav_pro_version" android:visible="false" android:title="@string/pro_version" />
+                <item android:icon="@drawable/ic_like_small" android:id="@id/menu_item_nav_like_it" android:title="@string/like_my_money" />
+                <item android:icon="@drawable/ic_help" android:id="@id/menu_item_nav_help" android:title="@string/help" />
+                <item android:icon="@drawable/ic_feedback_small" android:id="@id/menu_item_nav_feedback" android:title="@string/feedback" />
+            </group>
+        </menu>
+    </item>
+</menu>

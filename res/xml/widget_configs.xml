@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreferenceCompat app:defaultValue="true" app:enabled="true" app:iconSpaceReserved="false" app:key="key_wc_total" app:summary="@string/summary_wgt_config_show_total" app:title="@string/show_total_balance" />
+    <SwitchPreferenceCompat app:defaultValue="@bool/hasProWidgetSupport" app:enabled="@bool/hasProWidgetSupport" app:iconSpaceReserved="false" app:key="key_wc_smart" app:summary="@string/summary_wgt_config_smart_input" app:title="@string/smart_input" />
+    <SwitchPreferenceCompat app:defaultValue="false" app:enabled="true" app:iconSpaceReserved="false" app:key="key_wc_dark" app:summary="@string/summary_wgt_config_dark" app:title="@string/dark_background" />
+    <SwitchPreferenceCompat app:defaultValue="@bool/hasPassCodeSupport" app:enabled="@bool/hasPassCodeSupport" app:iconSpaceReserved="false" app:key="key_wc_pass" app:summary="@string/summary_wgt_config_passcode" app:title="@string/passcode_for_new_record" />
+</PreferenceScreen>

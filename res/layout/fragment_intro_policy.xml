@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/intro_fragment_margin" android:layout_marginEnd="@dimen/intro_fragment_margin">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_policy" android:layout_width="300.0dp" android:layout_height="150.0dp" android:src="@drawable/bg_intro_policy" android:scaleType="fitCenter" android:contentDescription="@string/mymoney" app:tint="?colorOnSurfaceTone" />
+            <TextView android:textSize="36.0sp" android:textColor="?colorOnSurface" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mymoney" android:layout_alignBottom="@id/iv_policy" android:layout_centerInParent="true" style="@style/BrandTextViewStyle" />
+        </RelativeLayout>
+        <TextView android:textSize="16.0sp" android:textColor="?colorOnSurfaceDisabled" android:paddingTop="0.0dp" android:paddingBottom="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/your_personal_finance_manager" style="@style/BrandTextViewStyle" />
+        <View android:background="?colorOnSurfaceDisabled" android:layout_width="match_parent" android:layout_height="?strokeSize" />
+        <TextView android:textStyle="bold" android:gravity="start" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/help_make_mymoney_better" android:maxLines="10" style="?textLarge" />
+        <View android:background="?colorOnSurfaceTone" android:layout_width="match_parent" android:layout_height="?strokeSize" />
+        <com.google.android.material.switchmaterial.SwitchMaterial android:gravity="center_vertical" android:id="@id/switch_crash" android:paddingTop="20.0dp" android:paddingBottom="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/send_crash_and_usage_statistics" android:maxLines="3" style="?textNormal" />
+        <TextView android:gravity="start" android:paddingTop="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/msg_intro_crash_data" android:maxLines="6" android:drawablePadding="10.0dp" app:drawableStartCompat="@drawable/ic_info" app:drawableTint="?colorOnSurfaceDisabled" style="?textNormalSubtitle" />
+        <View android:layout_width="0.0dp" android:layout_height="96.0dp" />
+    </LinearLayout>
+</ScrollView>

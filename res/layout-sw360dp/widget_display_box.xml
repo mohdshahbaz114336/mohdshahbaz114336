@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="15.0dp" android:paddingEnd="15.0dp"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guideline_center" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.46" />
+        <TextView android:textStyle="bold" android:id="@id/title_display_options" android:layout_width="0.0dp" android:layout_height="?actionBarSize" android:text="@string/display_options" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="?textLarge" />
+        <TextView android:gravity="end" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/view_mode_" app:layout_constraintEnd_toStartOf="@id/guideline_center" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/checker_group" style="?textNormal" />
+        <com.raha.app.mymoney.widget.CheckerGroup android:gravity="start" android:orientation="vertical" android:id="@id/checker_group" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/guideline_center" app:layout_constraintTop_toBottomOf="@id/title_display_options">
+            <com.raha.app.mymoney.widget.CheckerButton android:id="@id/btn_daily" android:layout_width="wrap_content" android:layout_height="@dimen/checker_button_height" android:text="@string/daily" />
+            <com.raha.app.mymoney.widget.CheckerButton android:id="@id/btn_weekly" android:layout_width="wrap_content" android:layout_height="@dimen/checker_button_height" android:text="@string/weekly" />
+            <com.raha.app.mymoney.widget.CheckerButton android:id="@id/btn_monthly" android:layout_width="wrap_content" android:layout_height="@dimen/checker_button_height" android:text="@string/monthly" />
+            <com.raha.app.mymoney.widget.CheckerButton android:id="@id/btn_quarterly" android:layout_width="wrap_content" android:layout_height="@dimen/checker_button_height" android:text="@string/_3_months" />
+            <com.raha.app.mymoney.widget.CheckerButton android:id="@id/btn_half_yearly" android:layout_width="wrap_content" android:layout_height="@dimen/checker_button_height" android:text="@string/_6_months" />
+            <com.raha.app.mymoney.widget.CheckerButton android:id="@id/btn_yearly" android:layout_width="wrap_content" android:layout_height="@dimen/checker_button_height" android:text="@string/yearly" />
+        </com.raha.app.mymoney.widget.CheckerGroup>
+        <TextView android:gravity="end" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/show_total_" app:layout_constraintEnd_toStartOf="@id/guideline_center" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/checker_group_2" style="?textNormal" />
+        <com.raha.app.mymoney.widget.CheckerGroup android:gravity="start" android:orientation="vertical" android:id="@id/checker_group_2" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="14.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/guideline_center" app:layout_constraintTop_toBottomOf="@id/checker_group">
+            <com.raha.app.mymoney.widget.CheckerButton android:id="@id/btn_yes" android:layout_width="wrap_content" android:layout_height="@dimen/checker_button_height" android:text="@string/yes" />
+            <com.raha.app.mymoney.widget.CheckerButton android:id="@id/btn_no" android:layout_width="wrap_content" android:layout_height="@dimen/checker_button_height" android:text="@string/no" />
+        </com.raha.app.mymoney.widget.CheckerGroup>
+        <TextView android:gravity="end" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/carry_over_" app:layout_constraintEnd_toStartOf="@id/guideline_center" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/checker_group_3" style="?textNormal" />
+        <com.raha.app.mymoney.widget.CheckerGroup android:gravity="start" android:orientation="vertical" android:id="@id/checker_group_3" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="14.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/guideline_center" app:layout_constraintTop_toBottomOf="@id/checker_group_2">
+            <com.raha.app.mymoney.widget.CheckerButton android:id="@id/btn_on" android:layout_width="wrap_content" android:layout_height="@dimen/checker_button_height" android:text="@string/on" />
+            <com.raha.app.mymoney.widget.CheckerButton android:id="@id/btn_off" android:layout_width="wrap_content" android:layout_height="@dimen/checker_button_height" android:text="@string/off" />
+        </com.raha.app.mymoney.widget.CheckerGroup>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

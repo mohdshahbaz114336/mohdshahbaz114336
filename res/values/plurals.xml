@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="time_period_has_n_records">
+        <item quantity="one">%1$s : %2$d record</item>
+        <item quantity="other">%1$s : %2$d records</item>
+    </plurals>
+    <plurals name="total_n_matches_found">
+        <item quantity="one">Only %1$d match found</item>
+        <item quantity="other">Total %1$d matches found</item>
+    </plurals>
+    <plurals name="total_n_records_in_this_account">
+        <item quantity="one">Only %1$d record in this account</item>
+        <item quantity="other">Total %1$d records in this account</item>
+    </plurals>
+    <plurals name="total_n_records_in_this_category">
+        <item quantity="one">Only %1$d record in this category</item>
+        <item quantity="other">Total %1$d records in this category</item>
+    </plurals>
+</resources>
