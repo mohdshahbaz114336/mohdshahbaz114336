@@ -21,7 +21,7 @@ jobs:
 
       - name: Build APK
         run: |
-          java -jar apktool.jar b smali_output -o app-unsigned.apk
+          java -jar apktool.jar b . -o app-unsigned.apk
 
       - name: Sign APK
         run: |
